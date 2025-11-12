@@ -1,0 +1,12 @@
+.project-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-media .media {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
