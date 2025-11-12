@@ -92,18 +92,35 @@ nav a.active {
   background: #d63384;
 }
 
-/* Image */
 .home-img img {
   width: 250px;
   border-radius: 50%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-/* Pied de page */
 footer {
   text-align: center;
   padding: 15px;
   background: #ffb6c1;
   color: white;
   font-size: 14px;
+
+}
+
+.thumb {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.thumb {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.mp4 video {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 15px;
 }
